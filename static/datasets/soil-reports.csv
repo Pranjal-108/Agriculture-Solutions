@@ -1,0 +1,32 @@
+STATE NAME,Nitrogen(N),Phosphorus(P),Potassium(K),ph
+Andaman and Nicobar,VL,VL,L,6.5
+Andhra Pradesh,L,VH,M,5
+Arunachal Pradesh,H,M,M,5
+Assam ,M,L,VL,5.5
+Bihar,VL,VH,H,6.3
+Goa  ,M,VL,M,7
+Gujarat ,VL,VH,H,5
+Haryana,VL,M,H,5.5
+Himachal Pradesh,M,H,H,6
+Jammu and Kashmir,M,M,M,6
+Jharkhand ,L,M,M,6
+Kerala,VL,VH,M,5
+Madhya Pradesh,VL,M,H,5.5
+Maharashtra,VL,M,H,7
+Manipur,VL,VH,L,6.3
+Meghalya,L,M,M,6
+Mizoram ,M,M,M,5
+Nagaland,M,VL,H,5
+Odisha,VL,M,M,5
+Puduchery,VL,VL,M,5
+Punjab  ,M,M,H,7
+Rajasthan,VL,M,H,7
+Sikkim,M,M,M,7
+Tamil Nadu,L,VH,H,6.5
+Tripura  ,L,M,L,6.3
+Uttar Pradesh  ,VL,M,H,5
+Uttarkhand,L,M,M,6.3
+West Bengal,M,VH,M,6.3
+Chattisgarh ,L,M,L,5
+Telanagana,L,VH,H,6.5
+Karnataka ,L,VH,M,6.5
