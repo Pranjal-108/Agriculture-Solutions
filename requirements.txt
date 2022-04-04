@@ -1,0 +1,14 @@
+numpy
+pandas
+Flask
+scikit-learn
+requests
+pillow
+gunicorn == 20.0.4
+bcrypt
+flask-wtf
+twilio
+flask-login
+email-validator
+sklearn
+
