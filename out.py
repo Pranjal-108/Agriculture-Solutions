@@ -38,11 +38,7 @@ print(len(crop_name_scientific))
 '''
 @app.route('/')
 def index():
-    return render_template('prediction.html')
-
-@app.route('/chatbot')
-def chat():
-    return render_template('chatbot.html')
+    return render_template('index.html')
 
 @app.route('/predict',methods = ['GET','POST'])
 def predicted():
@@ -116,33 +112,7 @@ def predicted():
 
     return render_template('prediction.html', predict=crop_detail)
 
-@app.route('/test')
-def test():
-    ab=['a','b','c']
-    bc=[1,2,3]
-    cd=[4,5,6]
-    da=[7,8,9]
 
-    res = [{a: {b:{c:d}}} for (a, b, c,d) in zip(ab,bc,cd,da)]
-
-    print(res)
-
-    dct = {a: {b: {c:d}} for a,b,c,d in zip(ab,bc,cd,da)}
-    dct['date']=datetime.now().date()
-
-    for i in dct:
-        if i!='date':
-            print(i)
-            print(dct[i])
-            for j in dct[i]:
-                print(dct[i][j])
-                for k in dct[i][j]:
-                    print(dct[i][j][k])
-        else:
-        # not iterable
-            print(i, 'is not iterable')
-
-        return render_template('test.html',result=dct)
 
 @app.route('/send',methods=['GET','POST'])
 def email():
